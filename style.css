@@ -225,7 +225,7 @@ body {
       clip-path: polygon(0 0, 100% 0, 100% 79%, 50% 100%, 0 79%);
       
     }
-    .logo {
+     .logo {
   display: flex;
   align-items: flex-start; /* align tops, not center */
   gap: 10px;
@@ -294,7 +294,7 @@ small{
     position: sticky;
   top: 0;
   z-index: 9990; 
-   background: linear-gradient(to right, #7e3629, #743125);
+    background: linear-gradient(to right, #7e3629, #743125);
       background-image:
         linear-gradient(to right, #7e3629, #743125),
         url('https://www.transparenttextures.com/patterns/stardust.png');

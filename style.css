@@ -26,9 +26,9 @@ body {
 .news-ticker {
   width: 100%;
   height: 2em;
-     background: linear-gradient(to right, #54565d, #616060);
+     background: linear-gradient(to right, #7e3629, #743125);
       background-image:
-        linear-gradient(to right, #54565d, #616060),
+        linear-gradient(to right, #7e3629, #743125),
         url('https://www.transparenttextures.com/patterns/stardust.png');
   overflow: hidden;
   z-index: 101;
@@ -295,9 +295,9 @@ small{
     position: sticky;
   top: 0;
   z-index: 9990; 
-   background: linear-gradient(to right, #54565d, #616060);
+   background: linear-gradient(to right, #7e3629, #743125);
       background-image:
-        linear-gradient(to right, #54565d, #616060),
+        linear-gradient(to right, #7e3629, #743125),
         url('https://www.transparenttextures.com/patterns/stardust.png');
   font-size: small;
    background-blend-mode: overlay;
@@ -601,7 +601,7 @@ small{
 
 
 .section-title h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 700;
   color: #001a33;
   font-family: 'Poppins', 'Helvetica', 'Arial', 'Lucida', sans-serif;
@@ -952,6 +952,9 @@ small{
     object-fit: cover;
     
   }
+  .hospitalimg{
+  height: 80vh;
+}
 }
 
     
@@ -1063,12 +1066,15 @@ small{
   }
   .redbg{
   background-image: url('img/248cba915bb2debfe076d5495754a652eaaef11a\ \(1\).png');
-  height: 125vh;
+  height: fit-content;
   width: 100%;
-  background-size: cover;
+  background-size:auto;
   background-position: center;
   background-repeat: no-repeat;
  
+}
+.hospitalimg{
+  height: 50vh;
 }
 }
 

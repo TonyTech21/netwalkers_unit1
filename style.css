@@ -262,7 +262,7 @@ body {
     position: fixed;
     top: 6.5em;
     left: 0;
-    width: 1000%;
+    width: fit-content;
    background: linear-gradient(to right, #54565d, #616060);
     padding: 1em;
     transform: translateY(-150%);

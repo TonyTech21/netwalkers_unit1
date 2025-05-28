@@ -12,7 +12,7 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
   background-attachment: fixed;
-  background-size: 400% 400%;
+  /* background-size: 400% 400%; */
   animation: shimmerSky 30s ease infinite;
 }
 @keyframes shimmerSky {
@@ -211,7 +211,7 @@ body {
 /* MOBILE NAV */
 @media (max-width: 768px) {
    .main-nav {
-   width: 100%;
+   /* width: 100%; */
     height: 6.5em;
       position: sticky;
         top: 2.5em; 
@@ -261,7 +261,7 @@ body {
 .mobile-menu {
     position: fixed;
     top: 6.5em;
-    left: 0;
+    /* left: 0; */
     width: 100%;
    background: linear-gradient(to right, #54565d, #616060);
     padding: 1em;
@@ -573,7 +573,7 @@ small{
 
 /* business-suite */
 .business-units {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
  
 }
@@ -883,7 +883,7 @@ small{
 
 .redbg{
   background-image: url('img/248cba915bb2debfe076d5495754a652eaaef11a\ \(1\).png');
-  height: 65vh;
+  /* height: 65vh; */
   width: 100%;
   background-size: cover;
   background-position: center;

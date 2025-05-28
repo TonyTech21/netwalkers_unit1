@@ -17,6 +17,9 @@ body {
   background-attachment: fixed;
   /* background-size: 400% 400%; */
   animation: shimmerSky 30s ease infinite;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 @keyframes shimmerSky {
   0% { background-position: 0% 50%; }

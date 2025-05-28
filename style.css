@@ -261,7 +261,7 @@ body {
 .mobile-menu {
     position: fixed;
     top: 6.5em;
-    /* left: 0; */
+    left: 0;
     width: 100%;
    background: linear-gradient(to right, #54565d, #616060);
     padding: 1em;

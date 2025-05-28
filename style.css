@@ -262,15 +262,20 @@ body {
     position: fixed;
     top: 6.5em;
     left: 0;
-    width: 100%;
-   background: linear-gradient(to right, #54565d, #616060);
+    width: 100vw; /* Force to viewport width */
+    max-width: 100vw; /* Cap it hard */
+    overflow-x: hidden; /* Prevent sideways scroll */
+    background: linear-gradient(to right, #54565d, #616060);
     padding: 1em;
     transform: translateY(-150%);
     transition: transform 0.3s ease;
     z-index: 99;
     font-size: small;
-    margin-top: 3.2em!important;
+    margin-top: 3.2em !important;
+    box-sizing: border-box; /* Include padding in width */
+    word-wrap: break-word; /* Break long words */
 }
+
 small{
   font-size: 0.7em;
 }

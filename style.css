@@ -825,7 +825,7 @@ small{
 
 .redbg{
   background-image: url('img/248cba915bb2debfe076d5495754a652eaaef11a\ \(1\).png');
-  height: 65vh;
+  height: fit-content;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -853,8 +853,9 @@ small{
 
    .hospitalimg{
     height: 400px;
-    width: 400px;
+    width: 500px;
    } 
+   
 
 .Hospital {
   display: flex;
@@ -890,6 +891,7 @@ small{
     flex: 1;
     max-width: 48%;
   }
+ 
 
   .hopitalimg img {
     width: fit-content;
@@ -1014,6 +1016,10 @@ small{
   .card2 {
     min-width: 43.33%; 
   }
+   .hospitalimg{
+    height: 250px;
+    width: 350px;
+   } 
   .hopitalimg img {
     width: 100%;
     height: auto;
@@ -1021,7 +1027,7 @@ small{
   }
   .redbg{
   background-image: url('img/248cba915bb2debfe076d5495754a652eaaef11a\ \(1\).png');
-  height: 110vh;
+  height: fit-content;
   width: 100%;
   background-size: cover;
   background-position: center;
